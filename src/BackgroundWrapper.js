@@ -1,9 +1,3 @@
-import React from 'react';
+import NoopWrapper from './NoopWrapper'
 
-class BackgroundWrapper extends React.Component {
-  render() {
-    return this.props.children;
-  }
-}
-
-export default BackgroundWrapper;
+export default NoopWrapper
